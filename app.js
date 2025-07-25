@@ -29,9 +29,9 @@ function score (arr){
         let stdMarks = arr[i]
         if(stdMarks >= 70 ){
             document.write(stdMarks + "Pass" + "<br>");
-        } else if (stdMarks < 69){
+        } else if (stdMarks <= 69){
             document.write(stdMarks + "failed" + "<br>");
-        } else if (stdMarks > 101){
+        } else if (stdMarks >= 100){
             document.write(stdMarks + "this num is not including passing marks" + "<br>");
         } else {
             document.write("sfgkuagyvu");
