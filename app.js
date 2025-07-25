@@ -32,7 +32,7 @@ function score (arr){
         } else if (stdMarks > 70){
             document.write(stdMarks + "pass" + "<br>");
         } else if (stdMarks >= 100){
-            document.write(stdMarks + "this num is not including passing marks" + "<br>");
+            document.write(stdMarks + "this num is not including passing marks" + "<br>")
         } else {
             document.write("sfgkuagyvu");
         }
