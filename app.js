@@ -34,7 +34,7 @@ function score (arr){
         } else if (stdMarks >= 100){
             document.write(stdMarks + "this num is not including passing marks" + "<br>");
         } else {
-            document.write("sfgkuagyvu");
+            document.write("sfgkuagyvu")
         }
     }
 }
