@@ -27,19 +27,19 @@ let arr = [45,50,85,107];
 function score (arr){
     for (i = 0 ; i < arr.length; i++){
         let stdMarks = arr[i]
-        if(stdMarks < 70 ){
+        if(stdMarks > 100 ){
+            document.write(stdMarks + "this num is not including passing marks" + "<br>" + "<br>");
+        } else if (stdMarks < 70){
             document.write(stdMarks + "failed" + "<br>");
         } else if (stdMarks > 70){
-            document.write(stdMarks + "passed" + "<br>");
-        } else if (stdMarks >= 100){
-            document.write(stdMarks + "this num is not including passing marks" + "<br>");
+            document.write(stdMarks + "pass" + "<br>");
         } else {
-            document.write("sfgkuagyvu");
+            document.write("Please Enter A Valid Input");
         }
     }
 }
-
 score([45, 50, 85, 90, 25, 35, 45, 56, 67, 70 ,100 ,105]);
+
 
 
 // let message = "this product is shit. and you guys are dumb. you are all dumb";
