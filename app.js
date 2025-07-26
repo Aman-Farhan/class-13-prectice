@@ -34,7 +34,7 @@ function score (arr){
         } else if (stdMarks > 70){
             document.write(stdMarks + "pass" + "<br>");
         } else {
-            document.write("Please Enter A Valid Input")
+            document.write("Please Enter A Valid Input");
         }
     }
 }
