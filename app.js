@@ -30,7 +30,7 @@ function score (arr){
         if(stdMarks > 100 ){
             document.write(stdMarks + "this num is not including passing marks" + "<br>" + "<br>");
         } else if (stdMarks < 70){
-            document.write(stdMarks + "failed" + "<br>")
+            document.write(stdMarks + "failed" + "<br>");
         } else if (stdMarks > 70){
             document.write(stdMarks + "pass" + "<br>");
         } else {
